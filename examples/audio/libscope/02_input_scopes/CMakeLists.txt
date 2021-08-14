@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(input_scopes)
+set(SOURCEFILES 02_input_scopes.cpp)
+teensy_add_executable(input_scopes ${SOURCEFILES})
+teensy_target_link_libraries(input_scopes teensy_audio_libtftscope Audio teensy_eurorack_library ST7735_t3  Wire SPI arm_math cores)
+target_link_libraries(input_scopes.elf m stdc++)
