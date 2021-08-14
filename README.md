@@ -1,8 +1,9 @@
-# software and examples for [Teensy-eurorack](https://github.com/newdigate/teensy-eurorack)
+# teensy eurorack device library & examples 
+* for [teensy-eurorack](https://github.com/newdigate/teensy-eurorack) DIY programmable digital music device
 
-## [examples](examples)
+### [examples](examples)
 
-## software libraries
+### software libraries
  * simple standard midi file reader 
    * [midi-smf-reader](https://github.com/newdigate/midi-smf-reader)
  * generic sequencer
@@ -17,6 +18,6 @@
    * [teensy-libcurve](https://github.com/newdigate/teensy-libcurve)
    * draw beziers and antialiased lines
 
-## build dependencies
+### build dependencies
 * ```teensy-cmake-macros``` for compiling c++ for arm cortex
   * [teensy-cmake-macros](https://github.com/newdigate/teensy-cmake-macros)
