@@ -2,6 +2,7 @@
 * for [teensy-eurorack](https://github.com/newdigate/teensy-eurorack) DIY programmable digital music device
 
 ### [examples](examples)
+```
 ├── ad5754
 │   ├── 01_write_ad5754
 │   └── 02_write_both_ad5754
@@ -36,6 +37,7 @@
 └── midi
     ├── 01_MidiIn_display
     └── 02_MidiOut
+```
 
 ### software libraries
  * simple standard midi file reader 
