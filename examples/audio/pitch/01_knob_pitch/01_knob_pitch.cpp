@@ -3,8 +3,8 @@
 #include <Audio.h>
 #include <Bounce2.h>
 #include <ResponsiveAnalogRead.h>
-#include "playarrayresmp.h"
-#include "teensy_eurorack.h"
+#include <TeensyVariablePlayback.h>
+#include <TeensyEurorack.h>
 
 // GUItool: begin automatically generated code
 AudioPlayArrayResmp      rraw_a1;        //xy=321,513

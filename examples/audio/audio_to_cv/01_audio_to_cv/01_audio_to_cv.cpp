@@ -1,5 +1,5 @@
 #include <Audio.h>
-#include "teensy_eurorack.h"
+#include <TeensyEurorack.h>
 #include "teensy_eurorack_audio.h"
 
 // GUItool: begin automatically generated code

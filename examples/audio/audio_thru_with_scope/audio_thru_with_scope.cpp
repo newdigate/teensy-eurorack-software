@@ -1,7 +1,7 @@
 #include <Audio.h>
 #include <SPI.h>
 #include <ST7735_t3.h> // Hardware-specific library
-#include "teensy_eurorack.h"
+#include <TeensyEurorack.h>
 
 // GUItool: begin automatically generated code
 AudioInputTDM            tdm1;           //xy=257,403

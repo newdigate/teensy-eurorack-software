@@ -7,7 +7,7 @@ set(SOURCE_FILES
 set(HEADER_FILES
         ad5754.h
         input_output_spi.h
-        teensy_eurorack.h
+        TeensyEurorack.h
         teensy_eurorack_audio.h
         teensy_eurorack_pins.h
 )

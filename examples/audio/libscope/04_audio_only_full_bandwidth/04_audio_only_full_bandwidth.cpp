@@ -1,6 +1,6 @@
 #include <Audio.h>
 #include <ST7735_t3.h> // Hardware-specific library
-#include "teensy_eurorack.h"
+#include <TeensyEurorack.h>
 #include "ScopeView.h"
 
 ST7735_t3 TFT = ST7735_t3(TFT_CS, TFT_DC, TFT_RST);

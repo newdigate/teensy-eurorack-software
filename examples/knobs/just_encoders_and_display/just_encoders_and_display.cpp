@@ -1,5 +1,5 @@
+#include <TeensyEurorack.h>
 #include <ST7735_t3.h> // Hardware-specific library
-#include "teensy_eurorack.h"
 ST7735_t3 tft = ST7735_t3(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RST);
 
 #include <Encoder.h>

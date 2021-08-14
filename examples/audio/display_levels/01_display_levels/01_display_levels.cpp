@@ -1,7 +1,7 @@
 #include <Audio.h>
 #include <ST7735_t3.h> // Hardware-specific library
 #include "teensy_eurorack_audio.h"
-#include "teensy_eurorack.h"
+#include <TeensyEurorack.h>
 #include "AudioLevelView.h"
 
 // GUItool: begin automatically generated code

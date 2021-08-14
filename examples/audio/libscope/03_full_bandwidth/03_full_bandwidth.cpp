@@ -2,7 +2,7 @@
 #include <ST7735_t3.h> // Hardware-specific library
 #include <ResponsiveAnalogRead.h>
 
-#include "teensy_eurorack.h"
+#include <TeensyEurorack.h>
 #include "input_output_spi.h"
 #include "ScopeView.h"
 

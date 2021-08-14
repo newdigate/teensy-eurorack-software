@@ -3,7 +3,7 @@
 #include <SD.h>
 #include <TeensyVariablePlayback.h>
 #include <Bounce2.h>
-#include <teensy_eurorack.h>
+#include <TeensyEurorack.h>
 
 // GUItool: begin automatically generated code
 AudioPlaySdResmp         playSd1;        //xy=324,457

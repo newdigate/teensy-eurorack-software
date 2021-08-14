@@ -30,7 +30,7 @@
 // If you use the short version of the constructor and the DC
 // pin is hardware CS pin, then it will be slower.
 
-#include "teensy_eurorack.h"
+#include <TeensyEurorack.h>
 // Note the above pins are for the SPI object.  For those Teensy boards which have
 // more than one SPI object, such as T3.5, T3.6, T4 which have at SPI1 and SPI2
 // LC with SPI1, look at the cards that come with the teensy or the web page

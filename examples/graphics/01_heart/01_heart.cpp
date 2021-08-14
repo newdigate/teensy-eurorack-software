@@ -1,6 +1,6 @@
 #include "DrawingCanvas_st7735.h"
 #include "ST7735_t3.h"
-#include "teensy_eurorack.h"
+#include <TeensyEurorack.h>
 ST7735_t3 tft = ST7735_t3(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RST);
 DrawingCanvas_st7735 canvas(tft);
 

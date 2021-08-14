@@ -4,7 +4,7 @@
 #ifndef TEENSY_EURORACK_AD5754_H
 #define TEENSY_EURORACK_AD5754_H
 
-#include "teensy_eurorack.h"
+#include <TeensyEurorack.h>
 
 /* AD5754R Register Map */
 #define AD5754R_REG_DAC             0x00 // DAC register

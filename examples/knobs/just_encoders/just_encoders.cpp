@@ -1,5 +1,4 @@
-#include "teensy_eurorack.h"
-
+#include <TeensyEurorack.h>
 #include <Encoder.h>
 #include <Bounce2.h>
 Bounce button0 = Bounce(TEENSY_EURORACK_PIN_ENC1_SW, 15);

@@ -1,6 +1,6 @@
 #include <SPI.h> //MUST include the SPI library or this won't work.
-#include "ad5754.h"
-#include "teensy_eurorack.h"
+#include <ad5754.h>
+#include <TeensyEurorack.h>
 
 void SendData2(unsigned char *p){
     digitalWrite(DA_SYNC,LOW);

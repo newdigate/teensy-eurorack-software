@@ -1,6 +1,3 @@
-//
-// Created by Moolet on 09/03/2021.
-//
 #ifndef TEENSY_EURORACK_TEENSY_EURORACK_H
 #define TEENSY_EURORACK_TEENSY_EURORACK_H
 
