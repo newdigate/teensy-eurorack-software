@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(audio_level_display)
+set(SOURCEFILES 01_display_levels.cpp)
+teensy_add_executable(audio_level_display ${SOURCEFILES})
+teensy_target_link_libraries(audio_level_display  teensy_audio_display_components teensy_eurorack_library ST7735_t3 Audio Wire SPI arm_math cores)
+target_link_libraries(audio_level_display.elf m stdc++)
