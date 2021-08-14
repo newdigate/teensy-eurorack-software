@@ -1,0 +1,1 @@
+adapted from [Mp3FilePlayer](https://github.com/FrankBoesing/Arduino-Teensy-Codec-lib/tree/master/examples/Mp3FilePlayer)

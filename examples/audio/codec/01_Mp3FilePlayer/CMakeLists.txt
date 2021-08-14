@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(mp3play)
+set(SOURCEFILES 01_Mp3FilePlayer.cpp)
+teensy_add_executable(mp3play ${SOURCEFILES})
+teensy_target_link_libraries(mp3play  teensy_eurorack_library ST7735_t3 Arduino_Teensy_Codec_lib Audio SD SdFat SerialFlash Wire SPI arm_math cores)
+target_link_libraries(mp3play.elf m stdc++)
