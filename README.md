@@ -1,4 +1,7 @@
 # teensy eurorack device library & examples 
+
+[![teensy-eurorack-library](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/teensy.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/teensy.yml)
+
 * for [teensy-eurorack](https://github.com/newdigate/teensy-eurorack) DIY programmable digital music device
 
   <a href="https://github.com/newdigate/teensy-eurorack"><img src='https://github.com/newdigate/teensy-eurorack/raw/master/hardware/images/teensy-eurorack.svg' width='125px'/> </a>
