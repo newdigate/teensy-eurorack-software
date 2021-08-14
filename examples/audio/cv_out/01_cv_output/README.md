@@ -1,0 +1,1 @@
+high resolution sine wave cv output
