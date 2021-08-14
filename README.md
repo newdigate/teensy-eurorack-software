@@ -2,6 +2,40 @@
 * for [teensy-eurorack](https://github.com/newdigate/teensy-eurorack) DIY programmable digital music device
 
 ### [examples](examples)
+├── ad5754
+│   ├── 01_write_ad5754
+│   └── 02_write_both_ad5754
+├── ad7606
+├── audio
+│   ├── audio_thru_with_scope
+│   ├── audio_to_cv
+│   ├── codec
+│   │   ├── 01_Mp3FilePlayer
+│   │   └── 02_Play_and_display
+│   ├── cv_out
+│   │   └── 01_cv_output
+│   ├── display_levels
+│   │   └── 01_display_levels
+│   ├── libscope
+│   │   ├── 02_input_scopes
+│   │   ├── 03_full_bandwidth
+│   │   └── 04_audio_only_full_bandwidth
+│   ├── pitch
+│   │   ├── 01_knob_pitch
+│   │   └── 02_play_all_sd
+│   └── simple_scope
+│       ├── 01_audiocv_scope
+│       └── 02_simple_cv_scope
+├── graphics
+│   ├── 00_graphicstest
+│   └── 01_heart
+├── knobs
+│   ├── just_encoders
+│   ├── just_encoders_and_display
+│   └── pots
+└── midi
+    ├── 01_MidiIn_display
+    └── 02_MidiOut
 
 ### software libraries
  * simple standard midi file reader 
