@@ -1,0 +1,26 @@
+# import common libraries
+import_arduino_library(cores ${COREPATH} debug util)
+import_arduino_library(SPI ${DEPSPATH}/SPI)
+import_arduino_library(SdFat ${DEPSPATH}/SdFat/src common DigitalIO ExFatLib FatLib FsLib iostream SdCard SpiDriver)
+import_arduino_library(SD ${DEPSPATH}/SD/src)
+import_arduino_library(SerialFlash ${DEPSPATH}/SerialFlash util)
+import_arduino_library(Wire ${DEPSPATH}/Wire utility)
+import_arduino_library(arm_math ${DEPSPATH}/arm_math/src)
+import_arduino_library(Audio ${DEPSPATH}/Audio utility)
+import_arduino_library(MIDI ${DEPSPATH}/MIDI/src)
+import_arduino_library(TeensyVariablePlayback ${DEPSPATH}/teensy-variable-playback src)
+import_arduino_library(midi_smf_reader ${DEPSPATH}/midi-smf-reader/src)
+import_arduino_library(teensypolyphony ${DEPSPATH}/teensy-polyphony/src)
+import_arduino_library(sampleflashloader ${DEPSPATH}/teensy-sample-flashloader/src)
+import_arduino_library(teensyquencer ${DEPSPATH}/teensy-quencer/src)
+import_arduino_library(ST7735_t3 ${DEPSPATH}/ST7735_t3)
+import_arduino_library(arduino_tftpianoview ${DEPSPATH}/arduino-tftpianoview/src)
+import_arduino_library(teensy_audio_display_components ${DEPSPATH}/teensy-audio-display-components/src) # https://github.com/newdigate/teensy-audio-display-components
+import_arduino_library(midi_smf_writer ${DEPSPATH}/midi-smf-writer/src)
+import_arduino_library(Arduino_Teensy_Codec_lib ${DEPSPATH}/Arduino-Teensy-Codec-lib)
+import_arduino_library(EEPROM ${DEPSPATH}/EEPROM)
+import_arduino_library(Encoder ${DEPSPATH}/Encoder utility)
+import_arduino_library(Bounce2 ${DEPSPATH}/Bounce2/src)
+import_arduino_library(teensy_audio_libtftscope ${DEPSPATH}/teensy-audio-libtftscope/src)
+import_arduino_library(ResponsiveAnalogRead ${DEPSPATH}/ResponsiveAnalogRead/src) # https://github.com/dxinteractive/ResponsiveAnalogRead.git
+import_arduino_library(teensy_libcurve ${DEPSPATH}/teensy-libcurve/src) # https://github.com/newdigate/teensy-libcurve
