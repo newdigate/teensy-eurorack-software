@@ -1,0 +1,8 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/cmake-build-${variant:buildType}",
+    "cmake.configureSettings": {
+        "CMAKE_BUILD_TYPE": "${buildType}"        
+    },
+    "boost-test-adapter.cwd": "${workspaceFolder}",
+    "cmake.generator": "Unix Makefiles"
+}
