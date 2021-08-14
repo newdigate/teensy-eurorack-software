@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(audio_pitch)
+set(SOURCEFILES 01_knob_pitch.cpp)
+teensy_add_executable(audio_pitch ${SOURCEFILES})
+teensy_target_link_libraries(audio_pitch Bounce2 TeensyVariablePlayback ResponsiveAnalogRead teensy_eurorack_library ST7735_t3 Audio Wire SPI arm_math cores)
+target_link_libraries(audio_pitch.elf m stdc++)
