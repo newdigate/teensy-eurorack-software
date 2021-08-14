@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(just_encoders_and_display)
+set(SOURCEFILES just_encoders_and_display.cpp)
+teensy_add_executable(just_encoders_and_display ${SOURCEFILES})
+teensy_target_link_libraries(just_encoders_and_display Bounce2 Encoder ST7735_t3 SPI cores)
+target_link_libraries(just_encoders_and_display.elf m stdc++)
