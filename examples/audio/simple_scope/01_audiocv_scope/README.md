@@ -1,0 +1,1 @@
+* display graph of incoming audio and cv (no dependencies)
