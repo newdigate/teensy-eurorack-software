@@ -80,7 +80,7 @@
   * [TeensyVariablePlayback](https://github.com/newdigate/teensy-variable-playback.git) variable rate .wav and .raw audio sample playback
   * [TeensySampleFlashLoader](https://github.com/newdigate/teensy-sample-flashloader.git) loads samples from the SD card in to flash memory
   * [Arduino_Teensy_Codec_lib](https://github.com/FrankBoesing/Arduino-Teensy-Codec-lib.git) plays mp3s, aac, flac, ogg audio files 
-  * [ResponsiveAnalogRead](https://github.com/dxinteractive/ResponsiveAnalogRead.git)
+  * [ResponsiveAnalogRead](https://github.com/dxinteractive/ResponsiveAnalogRead.git) reduce noise on the analog inputs by smoothing / averaging signal
 
 * manual needing to be manually installed (for now)
   * [midi_smf_reader](https://github.com/newdigate/midi-smf-reader.git) simple standard midi file reader 
@@ -93,4 +93,4 @@
   * [teensy_libcurve](https://github.com/newdigate/teensy-libcurve.git) draw beziers and antialiased lines
 
 * credits 
-  * [richgel999/picojpeg](https://github.com/richgel999/picojpeg)
+  * [richgel999/picojpeg](https://github.com/richgel999/picojpeg) used to display jpeg files 
