@@ -1,11 +1,11 @@
-name: example-audiocv-scope
+name: examples-audio-simplescope_01-audiocv-scope
 
 on:
   push:
     paths:
       - 'src/**'
       - 'examples/audio/simple_scope/01_audiocv_scope/**'
-      - '.github/workflows/teensy-examples-audio-simplescope-01_audiocv_scope.yml'
+      - '.github/workflows/examples-audio-simplescope_01-audiocv-scope.yml'
       - '!**.md'
 
 jobs:

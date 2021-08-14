@@ -1,11 +1,11 @@
-name: example-audio-codec-01-mp3fileplayer
+name: examples-audio-simplescope_02-simple-cv-scope
 
 on:
   push:
     paths:
       - 'src/**'
-      - 'examples/audio/codec/01_Mp3FilePlayer/**'
-      - '.github/workflows/teensy-examples-audio-codec-01_mp3fileplayer.yml'
+      - 'examples/audio/simple_scope/02_simple_cv_scope/**'
+      - '.github/workflows/examples-audio-simplescope_02-simple-cv-scope.yml'
       - '!**.md'
 
 jobs:
@@ -51,6 +51,13 @@ jobs:
 
       - uses: actions/checkout@v2
         with:
+          repository: PaulStoffregen/ST7735_t3.git
+          path: deps/ST7735_t3
+          fetch-depth: 1
+          ref: master
+
+      - uses: actions/checkout@v2
+        with:
           repository: PaulStoffregen/Audio.git
           path: deps/Audio
           fetch-depth: 1
@@ -76,12 +83,6 @@ jobs:
           fetch-depth: 1
           ref: master
 
-      - uses: actions/checkout@v2
-        with:
-          repository: FrankBoesing/Arduino-Teensy-Codec-lib.git
-          path: deps/Arduino-Teensy-Codec-lib
-          fetch-depth: 1
-          ref: master
 
       - name: download toolchain
         run: |
@@ -95,5 +96,5 @@ jobs:
       - name: install teensy-cmake-macros
         run: cd deps/teensy-cmake-macros && mkdir cmake-build-debug && cd cmake-build-debug && cmake -DCMAKE_BUILD_TYPE=Debug .. && sudo make install
 
-      - name: build
-        run: mkdir cmake-build-debug && cd cmake-build-debug && cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE:FILEPATH="../cmake/toolchains/teensy41.toolchain.cmake" .. && make mp3play_hex
+      - name: build simple_cv_scope
+        run: mkdir cmake-build-debug && cd cmake-build-debug && cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE:FILEPATH="../cmake/toolchains/teensy41.toolchain.cmake" .. && make simple_cv_scope_hex

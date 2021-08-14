@@ -1,11 +1,11 @@
-name: example-ad7606
+name: examples-ad7606
 
 on:
   push:
     paths:
       - 'src/**'
       - 'examples/ad7606/**'
-      - '.github/workflows/teensy-examples-ad7606.yml'
+      - '.github/workflows/examples-ad7606.yml'
       - '!**.md'
 
 jobs:

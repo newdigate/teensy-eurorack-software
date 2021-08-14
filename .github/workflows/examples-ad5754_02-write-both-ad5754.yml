@@ -1,11 +1,11 @@
-name: example-ad5754-02
+name: examples-ad5754_02-write-both-ad5754
 
 on:
   push:
     paths:
       - 'src/**'
       - 'examples/ad5754/02_write_both_ad5754/**'
-      - '.github/workflows/teensy-examples-ad5754-02.yml'
+      - '.github/workflows/examples-ad5754_02-write-both-ad5754.yml'
       - '!**.md'
 
 jobs:
