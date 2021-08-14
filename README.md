@@ -47,20 +47,33 @@
 
 ### run-time dependencies used in examples
 * dependencies packaged with Teensyduino
-  * [cores](https://github.com/PaulStoffregen/cores.git)
-  * [SPI](https://github.com/PaulStoffregen/SPI.git)
-  * [SdFat](https://github.com/greiman/SdFat.git) 
-  * [SD](https://github.com/PaulStoffregen/SD.git)
-  * [SerialFlash](https://github.com/PaulStoffregen/SerialFlash.git)
-  * [Wire](https://github.com/PaulStoffregen/Wire.git)
-  * [arm_math](https://github.com/PaulStoffregen/arm_math.git)
-  * [Audio](https://github.com/PaulStoffregen/Audio.git)
-  * [MIDI](https://github.com/PaulStoffregen/MIDI)
-  * [ST7735_t3](https://github.com/PaulStoffregen/ST7735_t3.git)
-  * [EEPROM](https://github.com/PaulStoffregen/EEPROM.git)
-  * [Encoder](https://github.com/PaulStoffregen/Encoder.git)
-  * [Bounce2](https://github.com/thomasfredericks/Bounce2.git)
-  * [USBHost_t36](https://github.com/PaulStoffregen/USBHost_t36.git)
+  [cores](https://github.com/PaulStoffregen/cores.git)
+| 
+[SPI](https://github.com/PaulStoffregen/SPI.git)
+| 
+[SdFat](https://github.com/greiman/SdFat.git) 
+| 
+[SD](https://github.com/PaulStoffregen/SD.git)
+| 
+[SerialFlash](https://github.com/PaulStoffregen/SerialFlash.git)
+| 
+[Wire](https://github.com/PaulStoffregen/Wire.git)
+| 
+[arm_math](https://github.com/PaulStoffregen/arm_math.git)
+| 
+[Audio](https://github.com/PaulStoffregen/Audio.git)
+| 
+[MIDI](https://github.com/PaulStoffregen/MIDI)
+| 
+[ST7735_t3](https://github.com/PaulStoffregen/ST7735_t3.git)
+| 
+[EEPROM](https://github.com/PaulStoffregen/EEPROM.git)
+| 
+[Encoder](https://github.com/PaulStoffregen/Encoder.git)
+| 
+[Bounce2](https://github.com/thomasfredericks/Bounce2.git)
+| 
+[USBHost_t36](https://github.com/PaulStoffregen/USBHost_t36.git)
 
 * dependencies installable via Arduino library manager
   * [TeensyVariablePlayback](https://github.com/newdigate/teensy-variable-playback.git) variable rate .wav and .raw audio sample playback
