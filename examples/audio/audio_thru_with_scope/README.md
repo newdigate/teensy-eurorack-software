@@ -1,0 +1,1 @@
+example audio though with simple input scope
