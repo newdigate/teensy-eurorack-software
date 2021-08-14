@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(heart)
+set(SOURCEFILES 01_heart.cpp)
+teensy_add_executable(heart ${SOURCEFILES})
+teensy_target_link_libraries(heart teensy_libcurve teensy_eurorack_library ST7735_t3 SD SdFat Wire SPI arm_math cores)
+target_link_libraries(heart.elf m stdc++)
