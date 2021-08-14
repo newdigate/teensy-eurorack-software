@@ -1,7 +1,7 @@
 # teensy eurorack device library & examples 
 * for [teensy-eurorack](https://github.com/newdigate/teensy-eurorack) DIY programmable digital music device
 
-  <img src='https://github.com/newdigate/teensy-eurorack/raw/master/hardware/images/teensy-eurorack.svg' width='125px'/>
+  <a href="https://github.com/newdigate/teensy-eurorack"><img src='https://github.com/newdigate/teensy-eurorack/raw/master/hardware/images/teensy-eurorack.svg' width='125px'/> </a>
 
 ### [examples](examples)
 ```
