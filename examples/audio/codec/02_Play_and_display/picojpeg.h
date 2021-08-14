@@ -4,9 +4,9 @@
 #ifndef PICOJPEG_H
 #define PICOJPEG_H
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+//#ifdef __cplusplus
+//extern "C" {
+//#endif
 
 // Error codes
 enum
@@ -122,8 +122,8 @@ unsigned char pjpeg_decode_init(pjpeg_image_info_t *pInfo, pjpeg_need_bytes_call
 // Not thread safe.
 unsigned char pjpeg_decode_mcu(void);
 
-#ifdef __cplusplus
-}
-#endif
+//#ifdef __cplusplus
+//}
+//#endif
 
 #endif // PICOJPEG_H

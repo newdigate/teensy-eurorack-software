@@ -36,7 +36,7 @@
 #include <Encoder.h>
 
 #include <ST7735_t3.h> // Hardware-specific library
-#include "teensy_eurorack.h"
+#include <TeensyEurorack.h>
 
 Encoder myEnc(TEENSY_EURORACK_PIN_ENC2_A, TEENSY_EURORACK_PIN_ENC2_B);
 
@@ -304,6 +304,7 @@ void playFileAAC(const char *filename)
     controls();
     serialcontrols();
   }
+  */
 }
 
 bool readDirectory() {
@@ -367,7 +368,6 @@ bool readDirectory() {
     return false;
   }
   return true;
-  */
 }
   
 void controls() {
@@ -451,8 +451,6 @@ void serialcontrols(){
   }
 
 }
-
-
 
 void loop() {
 
