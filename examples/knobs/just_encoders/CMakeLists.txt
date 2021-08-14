@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(just_encoders)
+set(SOURCEFILES just_encoders.cpp)
+teensy_add_executable(just_encoders ${SOURCEFILES})
+teensy_target_link_libraries(just_encoders Bounce2 Encoder cores)
+target_link_libraries(just_encoders.elf m stdc++)
