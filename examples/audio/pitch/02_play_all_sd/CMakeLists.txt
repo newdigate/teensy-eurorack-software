@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(audio_play_all)
+set(SOURCEFILES 02_play_all_sd.ino)
+teensy_add_executable(audio_play_all ${SOURCEFILES})
+teensy_target_link_libraries(audio_play_all Bounce2 TeensyVariablePlayback ResponsiveAnalogRead teensy_eurorack_library ST7735_t3 Audio SD SdFat Wire SPI arm_math cores)
+target_link_libraries(audio_play_all.elf m stdc++)
