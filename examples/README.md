@@ -32,13 +32,16 @@
   * [audio/libscope/02_input_scopes](audio/libscope/02_input_scopes)
     * output sine waves on all audio and cv outputs
     * display all audio and cv inputs on a scope view
+    * [![examples-audio-libscope_02-input-scopes](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-libscope_02-input-scopes.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-libscope_02-input-scopes.yml)
   * [audio/libscope/03_full_bandwidth](audio/libscope/03_full_bandwidth)
     * output sine waves on all audio and cv outputs
     * display all audio and cv inputs on a scope view
     * display 4 x potentiometer values on a scope view   
+    * [![examples-audio-libscope_03-full-bandwidth](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-libscope_03-full-bandwidth.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-libscope_03-full-bandwidth.yml)
   * [audio/libscope/04_audio_only_full_bandwidth](audio/libscope/04_audio_only_full_bandwidth)
     * output sine waves on all audio outputs
     * display all audio inputs on a scope view
+    * [![examples-audio-libscope_04-audio-only-full-bandwidth](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-libscope_04-audio-only-full-bandwidth.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-libscope_04-audio-only-full-bandwidth.yml)
   
 * codec - using [FrankBoesing/Arduino-Teensy-Codec-lib](https://github.com/FrankBoesing/Arduino-Teensy-Codec-lib)
   * [audio/codec/01_Mp3FilePlayer](audio/codec/01_Mp3FilePlayer) 
@@ -50,32 +53,43 @@
     * display jpeg of album cover if available
     * use rotary encoder to change directory
     * use buttons to pause/play, next, load-directory
-    * (ci/cd build needs attention)
+    * [![examples-audio-codec_02-play-and-display](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-codec_02-play-and-display.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-codec_02-play-and-display.yml)
  
 * [audio/simple_scope](audio/simple_scope)
   * [audio/simple_scope/01_audiocv_scope](audio/simple_scope/01_audiocv_scope)
     * display graph of incoming audio and cv (no dependencies) 
+    * [![examples-audio-simplescope_01-audiocv-scope](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-simplescope_01-audiocv-scope.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-simplescope_01-audiocv-scope.yml)
   * [audio/simple_scope/02_simple_cv_scope](audio/simple_scope/02_simple_cv_scope)
     * display graph of incoming cv (no dependencies)
+    * [![examples-audio-simplescope_02-simple-cv-scope](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-simplescope_02-simple-cv-scope.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-simplescope_02-simple-cv-scope.yml)
   
 
 * [graphics](graphics)
   * [graphics/00_graphicstest](graphics/00_graphicstest)
     * Adafruit graphics test adapted for teensy-eurorack parameters
+    * [![examples-graphics_00-graphicstest](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-graphics_00-graphicstest.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-graphics_00-graphicstest.yml)
   * [graphics/01_heart](graphics/01_heart)
     * Draw anti-aliased bezier curves (using [newdigate/teensy-libcurve](https://github.com/newdigate/teensy-libcurve))
+    * [![examples-graphics_01-heart](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-graphics_01-heart.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-graphics_01-heart.yml)
 
 * [knobs](knobs)
   * [knobs/just_encoders](knobs/just_encoders)
     * read values of 3 rotary encoders
     * output changes on serial monitor
+    * [![examples-knobs_just-encoders](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-knobs_just-encoders.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-knobs_just-encoders.yml)
   * [knobs/just_encoders_and_display](knobs/just_encoders_and_display)
     * read values of 3 rotary encoders
     * output changes on serial monitor
     * initialize st7735 and display some text
+    * [![examples-knobs_just-encoders-and-display](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-knobs_just-encoders-and-display.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-knobs_just-encoders-and-display.yml)
+  * [pots](pots) 
+    * read potentiometer values
+    * [![examples-knobs_pots](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-knobs_pots.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-knobs_pots.yml)
   
 [midi](midi)
  * [midi/01_MidiIn_display](midi/01_MidiIn_display)
+   * [![examples-midi_01-midiin-display](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-midi_01-midiin-display.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-midi_01-midiin-display.yml) 
  * [midi/02_MidiOut](midi/02_MidiOut)
+   * [![examples-midi_02-midiout](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-midi_02-midiout.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-midi_02-midiout.yml)
 
 
