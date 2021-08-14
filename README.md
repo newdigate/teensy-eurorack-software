@@ -41,21 +41,6 @@
     └── 02_MidiOut
 ```
 
-### software libraries
- * simple standard midi file reader 
-   * [midi-smf-reader](https://github.com/newdigate/midi-smf-reader)
- * generic sequencer
-   * [teensy-quencer](https://github.com/newdigate/teensy-quencer)
- * variable rate playback
-   * [teensy-variable-playback](https://github.com/newdigate/teensy-variable-playback)
- * oscilliscope and x/y scope display components
-   * [teensy-audio-libtftscope](https://github.com/newdigate/teensy-audio-libtftscope)
- * Audio level and CV level meters 
-   * [teensy-audio-display-components](https://github.com/newdigate/teensy-audio-display-components)
- * teensy-libcurve 
-   * [teensy-libcurve](https://github.com/newdigate/teensy-libcurve)
-   * draw beziers and antialiased lines
-
 ### build dependencies
 * ```teensy-cmake-macros``` for compiling c++ for arm cortex
   * [teensy-cmake-macros](https://github.com/newdigate/teensy-cmake-macros)
@@ -78,20 +63,20 @@
   * [USBHost_t36](https://github.com/PaulStoffregen/USBHost_t36.git)
 
 * dependencies installable via Arduino library manager
-  * [TeensyVariablePlayback](https://github.com/newdigate/teensy-variable-playback.git)
+  * [TeensyVariablePlayback](https://github.com/newdigate/teensy-variable-playback.git) variable rate .wav and .raw audio sample playback
   * [TeensySampleFlashLoader](https://github.com/newdigate/teensy-sample-flashloader.git)
   * [Arduino_Teensy_Codec_lib](https://github.com/FrankBoesing/Arduino-Teensy-Codec-lib.git)
   * [ResponsiveAnalogRead](https://github.com/dxinteractive/ResponsiveAnalogRead.git)
 
 * manual needing to be manually installed (for now)
-  * [midi_smf_reader](https://github.com/newdigate/midi-smf-reader.git)
+  * [midi_smf_reader](https://github.com/newdigate/midi-smf-reader.git) simple standard midi file reader 
   * [teensypolyphony](https://github.com/newdigate/teensy-polyphony.git)
-  * [teensyquencer](https://github.com/newdigate/teensy-quencer.git)
+  * [teensyquencer](https://github.com/newdigate/teensy-quencer.git) generic sequencer
   * [arduino_tftpianoview](https://github.com/newdigate/arduino-tftpianoview.git)
-  * [teensy_audio_display_components](https://github.com/newdigate/teensy-audio-display-components.git)
+  * [teensy_audio_display_components](https://github.com/newdigate/teensy-audio-display-components.git) Audio level and CV level meters 
   * [midi_smf_writer](https://github.com/newdigate/midi-smf-writer.git)
-  * [teensy_audio_libtftscope](https://github.com/newdigate/teensy-audio-libtftscope)
-  * [teensy_libcurve](https://github.com/newdigate/teensy-libcurve.git)
+  * [teensy_audio_libtftscope](https://github.com/newdigate/teensy-audio-libtftscope) oscilliscope and x/y scope display components
+  * [teensy_libcurve](https://github.com/newdigate/teensy-libcurve.git) draw beziers and antialiased lines
 
 * credits 
   * [richgel999/picojpeg](https://github.com/richgel999/picojpeg)
