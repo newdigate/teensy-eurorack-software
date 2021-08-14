@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(full_bandwidth)
+set(SOURCEFILES 03_full_bandwidth.cpp)
+teensy_add_executable(full_bandwidth ${SOURCEFILES})
+teensy_target_link_libraries(full_bandwidth teensy_audio_libtftscope ResponsiveAnalogRead teensy_audio_display_components teensy_eurorack_library ST7735_t3 Audio Wire SPI arm_math cores)
+target_link_libraries(full_bandwidth.elf m stdc++)
