@@ -16,6 +16,7 @@
   * [audio/audio_thru_with_scope](audio/audio_thru_with_scope)
     * route audio in -> audio out 
     * display audio in wave graph
+    * [![examples-audio_audio-thru-with-scope](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio_audio-thru-with-scope.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio_audio-thru-with-scope.yml)
   * [audio/audio_to_cv/01_audio_to_cv](audio/audio_to_cv/01_audio_to_cv) 
     * route audio input to cv output
     * [![examples-audio-audiotocv_01-audio-to-cv](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-audiotocv_01-audio-to-cv.yml/badge.svg)](https://github.com/newdigate/teensy-eurorack-software/actions/workflows/examples-audio-audiotocv_01-audio-to-cv.yml)
