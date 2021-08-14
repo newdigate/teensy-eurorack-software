@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(midi_in_display)
+set(SOURCEFILES 01_MidiIn_display.cpp)
+teensy_add_executable(midi_in_display ${SOURCEFILES})
+teensy_target_link_libraries(midi_in_display MIDI Bounce2 Encoder ST7735_t3 SPI cores)
+target_link_libraries(midi_in_display.elf m stdc++)
