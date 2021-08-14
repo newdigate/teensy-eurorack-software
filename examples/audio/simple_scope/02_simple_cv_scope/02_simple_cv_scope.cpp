@@ -1,14 +1,15 @@
 #include <Audio.h>
-#include "teensy_eurorack_audio.h"
+#include <TeensyEurorack.h>
+#include <teensy_eurorack_audio.h>
+#include <ST7735_t3.h> 
 
 // GUItool: begin automatically generated code
 AudioInputTDM            tdm1;           //xy=401,330
 AudioRecordQueue         queue2;         //xy=671,170
 AudioOutputTDM           tdm3;           //xy=962,420
 AudioSynthWaveformSine   sine1;          //xy=272,218
-AudioInputOutputSPI         ad7606_ad5754;         //xy=484,1490
+AudioInputOutputSPI      ad7606_ad5754;         //xy=484,1490
 AudioConnection          patchCord18(ad7606_ad5754, 0, queue2, 0);
-
 AudioConnection          patchCord1(tdm1, 0, ad7606_ad5754, 0);
 AudioConnection          patchCord2(tdm1, 0, ad7606_ad5754, 1);
 AudioConnection          patchCord3(tdm1, 0, ad7606_ad5754, 2);
@@ -17,16 +18,9 @@ AudioConnection          patchCord5(tdm1, 0, ad7606_ad5754, 4);
 AudioConnection          patchCord6(tdm1, 0, ad7606_ad5754, 5);
 AudioConnection          patchCord7(tdm1, 0, ad7606_ad5754, 6);
 AudioConnection          patchCord8(tdm1, 0, ad7606_ad5754, 7);
-
 AudioControlCS42448      cs42448_1;      //xy=614,540
 // GUItool: end automatically generated code
 
-#define TFT_SCLK 13  // SCLK can also use pin 14
-#define TFT_MOSI 11  // MOSI can also use pin 7
-#define TFT_CS   6  // CS & DC can use pins 2, 6, 9, 10, 15, 20, 21, 22, 23
-#define TFT_DC    2  //  but certain pairs must NOT be used: 2+10, 6+9, 20+23, 21+22
-#define TFT_RST   0 // RST can use any pin
-#include <ST7735_t3.h> // Hardware-specific library
 ST7735_t3 tft = ST7735_t3(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RST);
 
 void setup() {
@@ -66,18 +60,6 @@ void updateScope2() {
   tft.drawLine(oscilliscope_x2, 64.0f + (buffer2[oscilliscope_x2-1] / 256.0f), oscilliscope_x2 + 1, 64.0f + (buffer2[oscilliscope_x2] / 256.0f), ST7735_CYAN);
 
 //  canvas.drawLine(oscilliscope_x2, 64.0f + (buffer2[oscilliscope_x2-1] / 256.0f), oscilliscope_x2 + 1, 64.0f + (buffer2[oscilliscope_x2] / 256.0f), ST7735_RED, LineEndpointStyle::NoneAntialiased, LineEndpointStyle::None);
-}
-
-unsigned memfree(void) {
-    extern unsigned long _ebss;
-    extern unsigned long _sdata;
-    extern unsigned long _estack;
-    const unsigned DTCM_START = 0x20000000UL;
-    unsigned dtcm = (unsigned)&_estack - DTCM_START;
-    unsigned stackinuse = (unsigned) &_estack -  (unsigned) __builtin_frame_address(0);
-    unsigned varsinuse = (unsigned)&_ebss - (unsigned)&_sdata;
-    unsigned freemem = dtcm - (stackinuse + varsinuse);
-    return freemem;
 }
 
 unsigned count = 0;
