@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(play_and_display)
+set(SOURCEFILES player.cpp picojpeg.c)
+teensy_add_executable(play_and_display ${SOURCEFILES})
+teensy_target_link_libraries(play_and_display Encoder Bounce2 teensy_eurorack_library ST7735_t3 Arduino_Teensy_Codec_lib Audio SD SdFat SerialFlash Wire SPI arm_math cores)
+target_link_libraries(play_and_display.elf m stdc++)
