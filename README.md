@@ -81,13 +81,13 @@
 
 * dependencies installable via Arduino library manager
   * [TeensyVariablePlayback](https://github.com/newdigate/teensy-variable-playback.git) variable rate .wav and .raw audio sample playback
+  * [TeensyAudioSampler](https://github.com/newdigate/teensy-polyphony) play polyphonic pitched and unpitched samples
   * [TeensySampleFlashLoader](https://github.com/newdigate/teensy-sample-flashloader.git) loads samples from the SD card in to flash memory
   * [Arduino_Teensy_Codec_lib](https://github.com/FrankBoesing/Arduino-Teensy-Codec-lib.git) plays mp3s, aac, flac, ogg audio files 
   * [ResponsiveAnalogRead](https://github.com/dxinteractive/ResponsiveAnalogRead.git) reduce noise on the analog inputs by smoothing / averaging signal
 
 * manual needing to be manually installed (for now)
   * [midi_smf_reader](https://github.com/newdigate/midi-smf-reader.git) simple standard midi file reader 
-  * [teensypolyphony](https://github.com/newdigate/teensy-polyphony.git) play polyphonic pitched and unpitched samples
   * [teensyquencer](https://github.com/newdigate/teensy-quencer.git) generic sequencer
   * [arduino_tftpianoview](https://github.com/newdigate/arduino-tftpianoview.git) display musical notes on a piano view
   * [teensy_audio_display_components](https://github.com/newdigate/teensy-audio-display-components.git) Audio level and CV level meters 
